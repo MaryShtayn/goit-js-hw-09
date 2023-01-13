@@ -16,3 +16,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+button[data-start],
+button[data-stop] {
+  width: 120px;
+  height: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 6%;
+  border: 1 solid #fafafa;
+}
