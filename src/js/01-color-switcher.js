@@ -19,14 +19,14 @@ function onBtnStartClick(evn) {
     document.body.style.backgroundColor = getRandomHexColor();
   }, 1000);
 
-  evn.target.disabled = true;
+  btnStart.disabled = true;
   btnStop.disabled = false;
 }
 
 function onBtnStopClick(evn) {
   clearInterval(intervalId);
 
-  evn.target.disabled = true;
+  btnStop.disabled = true;
   btnStart.disabled = false;
 }
 
