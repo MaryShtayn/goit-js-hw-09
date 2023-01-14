@@ -28,10 +28,66 @@ img {
 button[data-start],
 button[data-stop] {
   width: 120px;
-  height: 80px;
+  height: 60px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 24px;
   border-radius: 6%;
   border: 1 solid #fafafa;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px 0px #939299;
+}
+
+#datetime-picker {
+  height: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 8px;
+  padding: 15px 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  box-shadow: 4px 4px 4px 0px #939299;
+  border: 1px solid #939299;
+}
+.timer {
+  display: flex;
+  gap: 40px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  color: rgb(72, 78, 103);
+}
+
+.value {
+  font-size: 46px;
+  text-shadow: 4px 4px 8px #535151;
+  text-align: center;
+}
+
+.label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 3px 3px 3px grey;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-shadow: 3px 3px 3px grey;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  width: 240px;
+  height: 80px;
+  box-shadow: 4px 4px 4px 0px #46454a;
 }
